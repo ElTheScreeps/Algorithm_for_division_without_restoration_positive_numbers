@@ -1,11 +1,3 @@
-//---------------------------------------------------------------------------------------
-// Universitatea Transilvania din Brasov
-// Proiect     : Limbaje de descriere hardware
-// Autor       : <Gheorghe Lucian Giani Andrei>
-// Data        : <29/05/2022>
-//---------------------------------------------------------------------------------------
-// Descriere   : <Divider>
-//---------------------------------------------------------------------------------------
 module divider(
 input 		  clk,
 input 		  reset_n,
