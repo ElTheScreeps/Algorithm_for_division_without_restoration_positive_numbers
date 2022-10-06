@@ -38,4 +38,3 @@ divider DIVIDER(
 );
 
 endmodule
-
