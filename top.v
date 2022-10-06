@@ -11,18 +11,18 @@ wire [15:0] rezultat;
 always #5 clk <= ~clk;
 
 initial begin
-clk = 0;
+clk =     0;
 reset_n = 1;
-req = 0;
-valori = 0;
+req =     0;
+valori =  0;
 repeat (3) @(posedge clk);
 reset_n = 0;
 @(posedge clk);
-req = 1;
+req =     1;
 reset_n = 1;
 @(posedge clk)
-valori = 16'b0100101100001010;
-req = 0;
+valori =  16'b0100101100001010;
+req =     0;
 @(posedge clk);
 repeat (150) @(posedge clk);
 $stop;
