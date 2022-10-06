@@ -1,8 +1,8 @@
 module top();
 
-reg 		    clk;
-reg 		    reset_n;
-reg 		    req;
+reg clk;
+reg reset_n;
+reg req;
 reg  [15:0] valori;
 
 wire 		    ack;
