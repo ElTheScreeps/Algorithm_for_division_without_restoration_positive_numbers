@@ -1,7 +1,7 @@
 module divider(
-input 		  clk,
-input 		  reset_n,
-input 		  req,
+input 	      clk,
+input 	      reset_n,
+input 	      req,
 input  [15:0] valori,
 output reg    ack,
 output [15:0] rezultat
