@@ -5,7 +5,7 @@ reg         reset_n;
 reg         req;
 reg  [15:0] valori;
 
-wire 		    ack;
+wire        ack;
 wire [15:0] rezultat;
 
 always #5 clk <= ~clk;
