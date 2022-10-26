@@ -4,7 +4,7 @@ Algorithm for division without restoration, positive numbers:
 - load the dividend in A (n bits)
 - load the divisor in B (n bits)
 - repeat n times
-  -if P it is negative (MSB = 1) then
+  - if P it is negative (MSB = 1) then
     - move one position to the left P (LSB P = MSB A)
     - P <= P+B
   - else
