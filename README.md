@@ -15,7 +15,8 @@ Algorithm for division without restoration, positive numbers:
   - P <= P+B
 - P contain remainder
 
--A contain quotient
+- A contain quotient
+
 How to use this files:
 1. Downlaod the files;
 2. Put them in a directory;
