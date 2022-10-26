@@ -8,8 +8,8 @@ Algorithm for division without restoration, positive numbers:
     - move one position to the left P (LSB P = MSB A)
     - P <= P+B
   - else
-    -move one position to the left P (LSB P = MSB A)
-    -P <= P+(-B)
+    - move one position to the left P (LSB P = MSB A)
+    - P <= P+(-B)
   - move one position to the left A (LSB P = MSB A)
 - if P it is negative (MSB = 1) then
   - P <= P+B
