@@ -1,5 +1,6 @@
 Algorithm for division without restoration, positive numbers:
 
+
 -reset P (n+1 bits)
 -load the dividend in A (n bits)
 -load the divisor in B (n bits)
