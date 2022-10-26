@@ -1,8 +1,11 @@
 Algorithm for division without restoration, positive numbers:
 
 -reseat P(n+1 bits)
+
 -load the dividend in A (n bits)
+
 -load the divisor in B (n bits)
+
 -repeat n times
 
 How to use this files:
