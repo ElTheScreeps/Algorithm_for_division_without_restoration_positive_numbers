@@ -20,7 +20,7 @@ Algorithm for division without restoration, positive numbers:
 
 - A contain quotient
 
-Divison with steps:
+Divison and steps:
 
 ![image](https://user-images.githubusercontent.com/115155585/197961471-b052bc27-19cc-4384-bdef-46cd3b335cd2.png)
 
