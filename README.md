@@ -20,6 +20,11 @@ Algorithm for division without restoration, positive numbers:
 
 - A contain quotient
 
+Divison with steps:
+
+![image](https://user-images.githubusercontent.com/115155585/197961471-b052bc27-19cc-4384-bdef-46cd3b335cd2.png)
+
+
 How to use this files:
 1. Downlaod the files;
 2. Put them in a directory;
