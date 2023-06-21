@@ -6,18 +6,18 @@ Non-Restoring Division Algorithm, Positive Numbers:
 - load the dividend in A (n bits)
 - load the divisor in B (n bits)
 - repeat n times
-  - if P it is negative (MSB = 1) then
-    - move one position to the left P (LSB P = MSB A)
+  - if P is negative (MSB = 1) then
+    - shift P left by one position (LSB P = MSB A)
     - P <= P+B
   - else
-    - move one position to the left P (LSB P = MSB A)
+    - shift P left by one position (LSB P = MSB A)
     - P <= P+(-B)
-  - move one position to the left A (LSB P = MSB A)
-- if P it is negative (MSB = 1) then
+  - shift A left by one position (LSB A = not MSB P)
+- if P is negative (MSB = 1) then
   - P <= P+B
-- P contain remainder
+- P contains the remainder
 
-- A contain quotient
+- A contains the quotient
 
 Divison and steps:
 
