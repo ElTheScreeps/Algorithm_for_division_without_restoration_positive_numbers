@@ -1,6 +1,6 @@
 Non-Restoring Division Algorithm, Positive Numbers:
 
-![Non-Restoring Division Algorithm, Positive Numbers Diagram](https://github.com/ElTheScreeps/Algorithm_for_division_without_restoration_positive_numbers/assets/115155585/1626c92c-1178-4683-9d03-b5b85ce0d186)
+![Non-Restoring Division Algorithm, Positive Numbers Diagram](https://github.com/ElTheScreeps/Algorithm_for_division_without_restoration_positive_numbers/assets/115155585/e501a9e7-83e3-4ae5-834d-afaf2892a4ea)
 
 - reset P (n+1 bits)
 - load the dividend in A (n bits)
