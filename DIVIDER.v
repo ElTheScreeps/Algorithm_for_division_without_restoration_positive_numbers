@@ -18,17 +18,18 @@ reg [7:0] quotient;
 assign result [15:8] = remainder;
 assign result [7:0] = quotient;
 
-localparam S0  = 4'b0000; //reset_n
-localparam S1  = 4'b0001; //load dividend and divisor
-localparam S2  = 4'b0010; //if msb p = 1
-localparam S3  = 4'b0011; //concatenation (P) (LSB P = MSB A)
-localparam S4  = 4'b0100; //P <= P + B
-localparam S5  = 4'b0101; //concatenation (P) (LSB P = MSB A)
-localparam S6  = 4'b0110; //P <= P + (-B)
-localparam S7  = 4'b0111; //concatenation (A) (LSB A = not MSB P)
-localparam S8  = 4'b1000; //if msb p = 1
-localparam S9  = 4'b1001; //P <= P + B
-localparam S10 = 4'b1010; //STOP
+localparam [3:0]
+    S0  = 4'd0, //reset_n
+    S1  = 4'd1, //load dividend and divisor
+    S2  = 4'd2, //if msb p = 1
+    S3  = 4'd3, //concatenation (P) (LSB P = MSB A)
+    S4  = 4'd4, //P <= P + B
+    S5  = 4'd5, //concatenation (P) (LSB P = MSB A)
+    S6  = 4'd6, //P <= P + (-B)
+    S7  = 4'd7, //concatenation (A) (LSB A = not MSB P)
+    S8  = 4'd8, //if msb p = 1
+    S9  = 4'd9, //P <= P + B
+    S10 = 4'd10; //STOP
 
 always @(posedge clk or negedge reset_n)
 begin
